@@ -1,0 +1,31 @@
+{
+  "equation": "i_t = \u03b1 + \u03c1\u00b7i_{t-1} + \u03b2(\u03c0_t \u2212 4) + \u03b3\u00b7gap_t + \u03b5_t",
+  "diagnostics": {
+    "n_obs": 144,
+    "r2": 0.9847821194359949,
+    "adj_r2": 0.9844560219953377,
+    "durbin_watson": 2.1214493768857485,
+    "breusch_godfrey_p (12 lags)": 0.009054655608389854,
+    "breusch_pagan_p": 0.0035740465380233503,
+    "jarque_bera_p": 2.122734629236262e-34,
+    "max_vif": 1.068200594328578,
+    "vif": {
+      "repo_lag1": 1.0336454148073133,
+      "inflation_gap": 1.0433725866087282,
+      "output_gap": 1.068200594328578
+    }
+  },
+  "chow": {
+    "break_date": "2016-09-01",
+    "F": 0.4678771671110863,
+    "p_value": 0.7592222512295378,
+    "n_before": 32,
+    "n_after": 112
+  },
+  "derived": {
+    "smoothing_rho": 0.9823917813613163,
+    "long_run_inflation_response": 1.554050152847176,
+    "long_run_gap_response": 0.271853341106298,
+    "implied_neutral_rate": 3.5950083699610857
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "data": "real",
+  "built_at": "2026-11-07T18:13:51+00:00",
+  "start": "2014-01",
+  "end": "2025-12",
+  "sources": {
+    "cpi": "source: MoSPI eSankhyiki, CPI Combined All India General Index (base 2012=100), downloaded 2026-11-07",
+    "repo": "Policy repo rate decisions (effective date, rate %). Source: RBI monetary policy press releases / DBIE.",
+    "iip": "source: MoSPI eSankhyiki, IIP General Index (base 2011-12=100), downloaded 2026-11-07",
+    "inr": "local file",
+    "oil": "local file",
+    "credit": "not available",
+    "wacr": "not available"
+  }
+}

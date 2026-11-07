@@ -1,0 +1,13 @@
+variable,description,n,adf_stat,adf_p,adf_lags,kpss_stat,kpss_p,za_stat,za_p,za_break,verdict
+log_cpi,Log CPI (level),156,-0.985666,0.758456,7,1.83268,0.01,-3.23957,0.822852,2021-09,Unit root
+d_log_cpi,"Log CPI (level), first difference",155,-8.35725,2.88677e-13,6,0.089995,0.1,-9.43406,1e-05,2019-08,Stationary
+inflation,"CPI inflation, y-o-y %",144,-1.41477,0.575174,14,0.17203,0.1,-3.14087,0.863699,2019-08,Inconclusive
+d_inflation,"CPI inflation, y-o-y %, first difference",143,-5.05898,1.69409e-05,13,0.0976632,0.1,-5.95603,0.000871004,2023-07,Stationary
+repo,Repo rate,180,-1.63812,0.463245,3,1.05428,0.01,-6.49693,0.000308805,2022-04,Unit root
+d_repo,"Repo rate, first difference",179,-4.43741,0.000254706,2,0.11262,0.1,-5.14931,0.0178464,2020-05,Stationary
+output_gap,Output gap (IIP),165,-7.21019,2.24539e-10,0,0.0617227,0.1,-8.07987,1e-05,2020-02,Stationary
+iip_yoy,"IIP growth, y-o-y %",153,-7.63095,2.00966e-11,0,0.0630957,0.1,-8.44743,1e-05,2021-02,Stationary
+oil_yoy,"Brent, y-o-y %",168,-2.72035,0.0705833,13,0.172508,0.1,-3.32995,0.779391,2022-11,Inconclusive
+d_oil_yoy,"Brent, y-o-y %, first difference",167,-4.04107,0.00121009,12,0.0410515,0.1,-4.68934,0.0725836,2022-03,Stationary
+inr_yoy,"INR/USD, y-o-y %",168,-2.57709,0.0978252,13,0.405171,0.0749262,-3.73211,0.524988,2014-02,Inconclusive
+d_inr_yoy,"INR/USD, y-o-y %, first difference",167,-3.7881,0.00303141,14,0.0397699,0.1,-4.36523,0.165183,2018-01,Stationary

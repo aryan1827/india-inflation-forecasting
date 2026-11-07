@@ -1,0 +1,28 @@
+{
+  "sarima_order": [
+    0,
+    1,
+    1
+  ],
+  "sarima_seasonal_order": [
+    0,
+    1,
+    1,
+    12
+  ],
+  "var_lags": 1,
+  "horizons": [
+    1,
+    3,
+    12
+  ],
+  "backtest_start": "2018-01-01",
+  "models": [
+    "Random walk",
+    "Seasonal average",
+    "SARIMA",
+    "VAR",
+    "Gradient boosting",
+    "Random forest"
+  ]
+}

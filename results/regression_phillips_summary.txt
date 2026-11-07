@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              inflation   R-squared:                       0.812
+Model:                            OLS   Adj. R-squared:                  0.805
+Method:                 Least Squares   F-statistic:                     189.4
+Date:                Sat, 07 Nov 2026   Prob (F-statistic):           1.05e-59
+Time:                        23:43:51   Log-Likelihood:                -156.85
+No. Observations:                 143   AIC:                             325.7
+Df Residuals:                     137   BIC:                             343.5
+Df Model:                           5                                         
+Covariance Type:                  HAC                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.4541      0.218      2.086      0.037       0.027       0.881
+inflation_lag1      0.8904      0.043     20.806      0.000       0.806       0.974
+output_gap_lag1     0.0085      0.005      1.634      0.102      -0.002       0.019
+oil_yoy_lag1       -0.0001      0.002     -0.048      0.962      -0.004       0.004
+inr_yoy_lag1       -0.0009      0.016     -0.053      0.958      -0.033       0.031
+covid               0.5046      0.138      3.660      0.000       0.234       0.775
+==============================================================================
+Omnibus:                        5.194   Durbin-Watson:                   1.615
+Prob(Omnibus):                  0.074   Jarque-Bera (JB):                6.383
+Skew:                           0.191   Prob(JB):                       0.0411
+Kurtosis:                       3.962   Cond. No.                         167.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 12 lags and without small sample correction

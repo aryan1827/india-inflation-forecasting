@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                   repo   R-squared:                       0.985
+Model:                            OLS   Adj. R-squared:                  0.984
+Method:                 Least Squares   F-statistic:                     6355.
+Date:                Sat, 07 Nov 2026   Prob (F-statistic):          2.31e-149
+Time:                        23:43:51   Log-Likelihood:                 76.074
+No. Observations:                 144   AIC:                            -144.1
+Df Residuals:                     140   BIC:                            -132.3
+Df Model:                           3                                         
+Covariance Type:                  HAC                                         
+=================================================================================
+                    coef    std err          z      P>|z|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const             0.0633      0.079      0.803      0.422      -0.091       0.218
+repo_lag1         0.9824      0.012     82.141      0.000       0.959       1.006
+inflation_gap     0.0274      0.010      2.877      0.004       0.009       0.046
+output_gap        0.0048      0.002      3.068      0.002       0.002       0.008
+==============================================================================
+Omnibus:                       29.915   Durbin-Watson:                   2.121
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              155.070
+Skew:                          -0.518   Prob(JB):                     2.12e-34
+Kurtosis:                       7.977   Cond. No.                         44.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 12 lags and without small sample correction

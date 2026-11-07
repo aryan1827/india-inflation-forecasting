@@ -1,0 +1,14 @@
+{
+  "lags": 1,
+  "variables": [
+    "oil_yoy",
+    "output_gap",
+    "inflation",
+    "repo",
+    "inr_yoy"
+  ],
+  "nobs": 143,
+  "is_stable": true,
+  "min_root_modulus": 1.0890871366873485,
+  "whiteness_p": 1.0561857559387307e-06
+}

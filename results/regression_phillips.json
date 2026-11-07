@@ -1,0 +1,32 @@
+{
+  "equation": "\u03c0_t = \u03b1 + \u03b2\u2081\u03c0_{t-1} + \u03b2\u2082gap_{t-1} + \u03b2\u2083oil_{t-1} + \u03b2\u2084inr_{t-1} + \u03b4\u00b7covid_t + \u03b5_t",
+  "diagnostics": {
+    "n_obs": 143,
+    "r2": 0.8118932130858881,
+    "adj_r2": 0.8050280018846432,
+    "durbin_watson": 1.6154401103096065,
+    "breusch_godfrey_p (12 lags)": 1.4535648477827036e-06,
+    "breusch_pagan_p": 0.7245022693406061,
+    "jarque_bera_p": 0.04112010133104642,
+    "max_vif": 1.4787075497188802,
+    "vif": {
+      "inflation_lag1": 1.1088480740247963,
+      "output_gap_lag1": 1.4787075497188802,
+      "oil_yoy_lag1": 1.1880294364766366,
+      "inr_yoy_lag1": 1.1434047165242722,
+      "covid": 1.3784661482716454
+    }
+  },
+  "chow": {
+    "break_date": "2016-09-01",
+    "F": 1.3572608893243432,
+    "p_value": 0.23665077529129075,
+    "n_before": 31,
+    "n_after": 112
+  },
+  "derived": {
+    "long_run_oil_passthrough": -0.0009128406689065538,
+    "long_run_inr_passthrough": -0.007809674706050423,
+    "long_run_gap_effect": 0.07722539038211677
+  }
+}
