@@ -12,7 +12,7 @@ RBI DBIE and MoSPI. It asks two questions:
 
 The results are published as an interactive Streamlit dashboard.
 
-> Live app: _add your Streamlit link here after deploying_
+> Live app: https://inflationforecasting.streamlit.app
 
 ![Inflation and repo rate](reports/figures/01_inflation_repo.png)
 
@@ -174,4 +174,4 @@ inflation risk.
 
 ## Author
 
-Your name · [LinkedIn] · [email]
+Aryan Bendre · https://www.linkedin.com/in/aryanbendre
